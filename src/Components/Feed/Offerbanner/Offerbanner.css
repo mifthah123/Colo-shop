@@ -1,0 +1,82 @@
+.offerbanner{
+    background-image: url("https://img.freepik.com/free-photo/portrait-handsome-confident-stylish-hipster-lambersexual-model-with-curly-hairstyle-sexy-man-dressed-jeans-jacket-fashion-male-isolated-grey-wall-studio-sunglasses_158538-26644.jpg?w=900&t=st=1699542330~exp=1699542930~hmac=b5d61fcc0c25001dcd9de7ba825403cd8235bc4c95e1bc642b64afb6d90b6a3b");
+background-size: cover;
+    height: 600px;
+}
+
+.overlay-text{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 65%;
+  margin-top: 50px;
+}
+.overlay-text>p{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.overlay-text>h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.overlay-text>button{
+    width: 30%;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color:rgb(203, 10, 36);
+    color: white;
+    font-size: medium;
+    border: none;
+}
+
+.overlay-text>button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+
+@media only screen and (max-width:1150px){
+.overlay-text>h1{
+    font-size: 35px;
+}
+.overlay-text>button{
+    width: 30%;
+}
+}
+
+@media only screen and (max-width:960px){
+
+    .overlay-text>h1{
+    font-size: 30px;
+
+  }
+
+  .overlay-text>button{
+    width: 35%;
+  }
+  
+}
+
+@media only screen and (max-width:820px){
+    .overlay-text>button{
+        font-size: small;
+        width: 40%;
+    }
+}
+
+@media only screen and(max-width:780px){
+    .overlay-text>button{
+        width: 0%;
+    }
+}
+
+@media only screen and(min-width:630px){
+    .overlay-text>button{
+        width: 45%;
+    }
+}

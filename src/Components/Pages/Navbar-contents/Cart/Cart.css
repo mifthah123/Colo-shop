@@ -1,0 +1,34 @@
+.cart__container_box {
+  display: flex;
+  flex-direction: column;
+  padding: 51px;
+}
+
+.cart__title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.parent {
+  padding: -15px;
+  height: 60vh;
+  width: 96vh;
+  overflow: hidden;
+}
+
+.cart-box {
+  width: 100vh;
+  height: 60vh;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.noitems > p {
+  font-size: 120px;
+  color: gray;
+}

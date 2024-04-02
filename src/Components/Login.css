@@ -1,0 +1,81 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login__box {
+  box-shadow: 0px 0px 8px rgb(188, 186, 186);
+  padding: 50px;
+}
+
+.login__title {
+  color: rgb(221, 12, 12);
+}
+.login__inputs {
+  padding: 35px 0 35px 0px;
+  width: 45vh;
+}
+
+.input__options {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__options > label {
+  margin-right: 10px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.input__options > input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 9px;
+  margin-left: 11px;
+  width: 30vh;
+}
+
+.login__button {
+  display: flex;
+  justify-content: center;
+}
+
+.login__button > button {
+  width: 80vh;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgb(227, 14, 14);
+  color: #fff;
+}
+
+.login__button > button:hover {
+  background-color: rgb(172, 4, 4);
+  cursor: pointer;
+}
+
+.signup__link {
+  display: flex;
+  justify-content: center;
+}
+
+.signup__link > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.login__background {
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  height: 27.7rem;
+  width: 65vh;
+  box-shadow: 4px 0px 8px 0 rgb(188, 186, 186);
+}

@@ -1,0 +1,56 @@
+.items {
+    margin: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 200ms ease-in;
+  }
+  .go__cart__button > button {
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    border: none;
+    color: #fff;
+    background: rgb(203, 10, 36) 5px;
+  }
+  .go__cart__button > button:hover {
+    background: rgb(203, 10, 36) 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+    opacity: 0.7;
+  }
+  
+  .items:hover {
+    box-shadow: 0px 1px 18px -10px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transform: scale(1.07);
+  }
+  .items:hover > button {
+    background: rgb(203, 10, 36) 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+  }
+  .items > button:hover {
+    opacity: 0.7;
+  }
+  
+  .items > p {
+    margin-left: 30px;
+    font-weight: 400;
+  }
+  
+  .items > button {
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    border: none;
+    color: black;
+  }
+  
+  .items > img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,83 @@
+.profile__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile__details {
+  border: 1px solid lightgray;
+  padding: 20px;
+  width: 20rem;
+}
+
+.profile__title {
+  margin-top: 7rem;
+  margin-left: 10px;
+}
+
+.profile__image > img {
+  height: 70px;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 70px;
+  margin-bottom: 5px;
+}
+
+.profile__name {
+  border-bottom: 1px solid lightgray;
+}
+
+.edit__button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.edit__button > button {
+  border: none;
+  background-color: white;
+  font-size: large;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+.profile__options {
+  margin-bottom: 40px;
+}
+.profile__options > label {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(85, 33, 33);
+}
+
+.profile__options > p {
+  color: rgb(155, 150, 150);
+  font-weight: 600;
+}
+
+.my__order {
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+.my__order > p {
+  font-size: large;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logout > p {
+  color: red;
+  font-size: large;
+  font-weight: 600;
+}

@@ -1,0 +1,56 @@
+.body{
+    background-color: rgb(234, 238, 238);
+    height: 43.5rem;
+}
+
+.main__body_container{
+    display: flex;
+    justify-content: center;
+}
+
+.order__success{
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.order__success>h1{
+    margin-top: 50px;
+}
+
+.succes__buttons{
+    display: flex;
+}
+
+
+.order__button>button{
+    margin-top: 50px;
+    padding: 15px;
+    margin-right: 5px;
+    width: 15rem;
+    border: none;
+    font-size: large;
+    font-weight: 400;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shopping__button>button{
+    margin-top: 50px;
+    padding: 15px;
+    margin-right: 5px;
+    width: 15rem;
+    border: none;
+    font-size: large;
+    font-weight: 400;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+}

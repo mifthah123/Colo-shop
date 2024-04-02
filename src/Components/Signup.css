@@ -1,0 +1,81 @@
+.signup {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.signup__box {
+  box-shadow: 0px 0px 8px rgb(188, 186, 186);
+  padding: 50px;
+}
+
+.signup__title {
+  color: rgb(221, 12, 12);
+}
+.signup__inputs {
+  padding: 35px 0 35px 0px;
+  width: 45vh;
+}
+
+.input__options {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__options > input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 9px;
+  width: 45vh;
+  margin-right: 12px;
+}
+
+.signup__button {
+  display: flex;
+  justify-content: center;
+}
+
+.signup__button > button {
+  width: 65vh;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgb(227, 14, 14);
+  color: #fff;
+}
+
+.signup__button > button:hover {
+  background-color: rgb(172, 4, 4);
+  cursor: pointer;
+}
+
+.login__link {
+  display: flex;
+  justify-content: center;
+}
+
+.login__link > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.signup__background {
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  height: 38.2rem;
+  width: 65vh;
+  box-shadow: 4px 0px 8px 0 rgb(188, 186, 186);
+}
+
+.input__options > input:focus + .input__options > label {
+  top: -10px;
+}
